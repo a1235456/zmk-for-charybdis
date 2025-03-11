@@ -13,12 +13,12 @@
 
         layer_0 {
             bindings = <
-&kp GRAVE       &kp N1  &kp N2  &kp N3        &kp N4        &kp N5              &kp N6     &kp N7         &kp N8     &kp N9      &kp N0     &kp MINUS
-&kp TAB         &kp Q   &kp W   &kp E         &kp R         &kp T               &kp Y      &kp U          &kp I      &kp O       &kp P      &kp BACKSLASH
-&tog 1          &kp A   &kp S   &kp D         &kp F         &kp G               &kp H      &kp J          &kp K      &kp L       &kp SEMI   &kp SQT
-&kp LEFT_SHIFT  &kp Z   &kp X   &kp C         &kp V         &kp B               &kp N      &kp M          &kp COMMA  &kp PERIOD  &kp SLASH  &kp ESC
-                                &kp LEFT_ALT  &kp LEFT_WIN  &kp LEFT_BRACKET    &kp EQUAL  &mo 1          &tog 2
-                                              &kp SPACE     &kp DELETE          &kp ENTER  &kp BACKSPACE
+&kp GRAVE       &kp N1  &kp N2  &kp N3     &kp N4            &kp N5              &kp N6     &kp N7     &kp N8         &kp N9      &kp N0     &kp MINUS
+&kp TAB         &kp Q   &kp W   &kp E      &kp R             &kp T               &kp Y      &kp U      &kp I          &kp O       &kp P      &kp BACKSLASH
+&tog 1          &kp A   &kp S   &kp D      &kp F             &kp G               &kp H      &kp J      &kp K          &kp L       &kp SEMI   &kp SQT
+&kp LEFT_SHIFT  &kp Z   &kp X   &kp C      &kp V             &kp B               &kp N      &kp M      &kp COMMA      &kp PERIOD  &kp SLASH  &mt LCTRL ESC
+                                &kp SPACE  &kp DELETE        &kp LEFT_BRACKET    &kp EQUAL  &kp ENTER  &kp BACKSPACE
+                                           &kp LEFT_COMMAND  &kp LEFT_ALT        &mo 1      &tog 2
             >;
         };
 
@@ -28,7 +28,7 @@
 &trans         &kp LS(Q)   &kp LS(W)   &kp LS(E)   &kp LS(R)   &kp LS(T)            &kp LS(Y)      &kp LS(U)   &kp LS(I)      &kp LS(O)       &kp LS(P)      &kp LS(BACKSLASH)
 &trans         &kp LS(A)   &kp LS(S)   &kp LS(D)   &kp LS(F)   &kp LS(G)            &kp LS(H)      &kp LS(J)   &kp LS(K)      &kp LS(L)       &kp LS(SEMI)   &kp LS(SQT)
 &trans         &kp LS(Z)   &kp LS(X)   &kp LS(C)   &kp LS(V)   &kp LS(B)            &kp LS(N)      &kp LS(M)   &kp LS(COMMA)  &kp LS(PERIOD)  &kp LS(SLASH)  &trans
-                                       &trans      &trans      &kp RIGHT_BRACKET    &kp LS(EQUAL)  &mo 0       &trans
+                                       &trans      &trans      &kp RIGHT_BRACKET    &kp LS(EQUAL)  &trans      &trans
                                                    &trans      &trans               &trans         &trans
             >;
         };
