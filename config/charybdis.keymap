@@ -40,7 +40,7 @@
 &trans          &kp F6   &kp F7          &kp UP_ARROW    &kp F8           &kp F9          &kp KP_MINUS     &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &none                 &kp PERCENT
 &trans          &kp F10  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp F11         &kp KP_MULTIPLY  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp SEMICOLON         &kp SQT
 &trans          &kp F12  &kp PAGE_UP     &kp PAGE_DOWN   &bt BT_DISC 0    &bt BT_SEL 0    &kp KP_DIVIDE    &kp KP_NUMBER_0  &kp COMMA        &kp PERIOD       &kp SLASH             &trans
-                                         &trans          &trans           &trans          &kp KP_EQUAL     &trans           &trans
+                                         &trans          &trans           &trans          &kp EQUAL        &trans           &trans
                                                          &trans           &trans          &trans           &trans
             >;
         };
