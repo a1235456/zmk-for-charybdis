@@ -1,5 +1,4 @@
 #include <behaviors.dtsi>
-#include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 
 &lt {
@@ -36,12 +35,12 @@
 
         layer_2 {
             bindings = <
-&bt BT_CLR_ALL  &kp F1   &kp F2          &kp F3          &kp F4           &kp F5     &kp KP_PLUS      &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
-&trans          &kp F6   &kp F7          &kp UP_ARROW    &kp F8           &kp F9     &kp KP_MINUS     &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &none                 &kp PERCENT
-&trans          &kp F10  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp F11    &kp KP_MULTIPLY  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp SEMICOLON         &kp SQT
-&trans          &kp F12  &kp PAGE_UP     &kp PAGE_DOWN   &trans           &trans     &kp KP_DIVIDE    &kp KP_NUMBER_0  &kp COMMA        &kp PERIOD       &kp SLASH             &trans
-                                         &trans          &trans           &trans     &kp EQUAL        &trans           &trans
-                                                         &trans           &trans     &trans           &trans
+&trans  &kp F1   &kp F2          &kp F3          &kp F4           &kp F5     &kp KP_PLUS      &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
+&trans  &kp F6   &kp F7          &kp UP_ARROW    &kp F8           &kp F9     &kp KP_MINUS     &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &none                 &kp PERCENT
+&trans  &kp F10  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp F11    &kp KP_MULTIPLY  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp SEMICOLON         &kp SQT
+&trans  &kp F12  &kp PAGE_UP     &kp PAGE_DOWN   &trans           &trans     &kp KP_DIVIDE    &kp KP_NUMBER_0  &kp COMMA        &kp PERIOD       &kp SLASH             &trans
+                                 &trans          &trans           &trans     &kp EQUAL        &trans           &trans
+                                                 &trans           &trans     &trans           &trans
             >;
         };
 
